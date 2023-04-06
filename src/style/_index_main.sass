@@ -1,0 +1,83 @@
+@import "animated"
+@include animation(fade-in-down-big)
+main
+    h1
+        font-family: 'Montserrat'
+        font-style: normal
+        font-weight: 700
+        font-size: 3rem
+        line-height: 59px
+        text-align: center
+        @include animate(fade-in-down, 1s)
+        color: #000000
+        @media only screen and (max-width: $small-screen)
+            font-size: 1.5rem
+
+    .id-card
+        color: #000000
+        width: 90%
+        display: flex
+        justify-content: space-evenly
+        margin: auto
+        margin-bottom: 15%
+        @include animate(fade-in-up, 1s)
+        @media only screen and (max-width: $medium-screen)
+            display: grid
+            grid-template-columns: auto auto auto
+        @media only screen and (max-width: $small-screen)
+            display: block
+        .card
+            background: #F1F1F1
+            box-shadow: 5px 6px 15px rgba(0, 0, 0, 0.25)
+            border-radius: 20px
+            overflow: hidden
+            display: flex
+            width: 200px
+            height: auto
+            flex-direction: column
+            justify-content: center
+            margin: 20px auto
+            img
+                width: 200px
+                height: 200px
+                object-fit: cover
+                object-position: center
+            h6
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: 700
+                font-size: 20px
+                margin: 7px auto
+    .porto
+        width: 90%
+        margin: auto
+        display: flex
+        background: #dfdfdf
+        border-radius: 20px
+        margin-bottom: 50px
+        @media only screen and (max-width: $small-screen)
+            flex-direction: column
+            align-item: center
+            justify-content: center
+        .comming-soon-svg
+            width: 50%
+            @media only screen and (max-width: $small-screen)
+                width: 85%
+                margin: auto
+        .keterangan
+            font-family: 'Montserrat'
+            font-style: normal
+            margin-top: 5%
+            @include animate(fade-in-right, 1s)
+            padding: 10px 20px
+            h2
+                font-weight: 700
+                font-size: 2.5rem
+                @media only screen and (max-width: $small-screen)
+                    font-size: 24px
+                    text-align: cemter
+            h4
+                font-weight: 500
+                font-size: 1.3rem
+                @media only screen and (max-width: $small-screen)
+                    font-size: 16px

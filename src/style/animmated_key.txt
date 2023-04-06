@@ -1,0 +1,47 @@
+Attention Seekers
+bounce
+pulse
+rubber band
+shake
+wobble
+Bouncing Entrances
+bounce-in
+bounce-in-down
+bounce-in-left
+bounce-in-right
+bounce-in-up
+Bouncing Exits
+bounce-out
+bounce-out-down
+bounce-out-left
+bounce-out-right
+bounce-out-up
+Fading Entrances
+fade-in
+fade-in-down
+fade-in-down-big
+fade-in-left
+fade-in-left-big
+fade-in-right
+fade-in-right-big
+fade-in-up
+fade-in-up-big
+Fading Exits
+fade-out
+fade-out-down
+fade-out-down-big
+fade-out-left
+fade-out-left-big
+fade-out-right
+fade-out-right-big
+fade-out-up
+fade-out-up-big
+Flippers
+flip-in-x
+Sliders
+slide-in-down
+slide-in-left
+slide-in-right
+slide-out-left
+slide-out-right
+slide-out-up

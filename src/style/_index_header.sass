@@ -1,0 +1,74 @@
+@import "animated"
+@include animation(fade-in-right)
+header
+    background: #4E6AFF
+    display: flex
+    flex-direction: row
+    width: 100%
+    @media only screen and (max-width: $small-screen)
+        display: block
+        align-item: center
+        justify-content: center
+    .header-kiri
+        background: #FFE2E2
+        width: 35%
+        border-radius: 0px 43vw 12vw 0px
+        padding: 7% 5% 7% 2%
+        @media only screen and (max-width: $medium-screen)
+            width: 50%
+            padding: 7% 0%
+        @media only screen and (max-width: $small-screen)
+            width: 95%
+            background: none
+            align-item: center
+            justify-content: center
+        .diskusi-svg
+            width: 90%
+            @media only screen and (max-width: $small-screen)
+                width: 100%
+            @media only screen and (max-width: $medium-screen)
+                width: 80%
+    .header-kanan
+        color: #FFFFFF
+        padding: 7% 5%
+        @include animate(fade-in-right, 1s)
+        @media only screen and (max-width: $small-screen)
+            width: 95%
+            background: none
+            align-item: center
+            justify-content: center
+            padding: 7% 0% 7% 5%
+        h1
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: 700
+            font-size: 6vh
+            margin: 0px
+            @media only screen and (max-width: $medium-screen)
+                font-size: 2rem
+        h2
+            font-family: 'Poppins'
+            font-style: normal
+            font-weight: 500
+            font-size: 2rem
+            margin: 0px
+            @media only screen and (max-width: $medium-screen)
+                font-size: 20px
+        h3
+            font-family: 'Montserrat'
+            font-style: italic
+            font-weight: 500
+            font-size: 1.52rem
+            @media only screen and (max-width: $medium-screen)
+                font-size: 16px
+        button
+            background: #FFFFFF
+            border-radius: 15px
+            padding: 2px 20px
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: 700
+            font-size: 1rem
+            line-height: 24px
+
+            color: #FF0000
