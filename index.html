@@ -1,12 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="website portofolio mahasiswa" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="src/style/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Siapa Kita</title>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function () {
+        window.setTimeout(
+          document.querySelector("svg").classList.add("animated"),
+          1000
+        );
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="header-kiri">
+        <object
+          data="asset/svg/seminar-not-css.svg"
+          type="image/svg+xml"
+          class="diskusi-svg"
+          id="diskusi-svg"
+        ></object>
+      </div>
+      <div class="header-kanan animate__fadeInRight">
+        <h1>SIAPA KITA TEAM</h1>
+        <h2>Create some project with us</h2>
+        <h3>“From University, We Give Your Solution”</h3>
+        <button>Get Started</button>
+      </div>
+    </header>
+    <main>
+      <h1>Our Member</h1>
+      <section class="id-card" id="id-card">
+        <div class="card" id="card-1">
+          <img
+            src="./asset/image/namri.jpeg"
+            class="foto"
+            id="foto"
+            alt="Foto-1"
+          />
+          <h6>Naufal Badri</h6>
+          <h6>1202200068</h6>
+        </div>
+        <div class="card" id="card-2">
+          <img
+            src="./asset/image/rey.jpg"
+            class="foto"
+            id="foto"
+            alt="Foto-2"
+          />
+          <h6>Rey Dylanza</h6>
+          <h6>1202200002</h6>
+        </div>
+        <div class="card" id="card-3">
+          <img
+            src="./asset/image/Rahmat_.jpg"
+            class="foto"
+            id="foto"
+            alt="Foto-3"
+          />
+          <h6>Rahmat</h6>
+          <h6>1202200007</h6>
+        </div>
+        <div class="card" id="card-4">
+          <img
+            src="./asset/image/thomas.jpg"
+            class="foto"
+            id="foto"
+            alt="Foto-4"
+          />
+          <h6>Thomas Andre</h6>
+          <h6>1202202082</h6>
+        </div>
+        <div class="card" id="card-5">
+          <img src="./asset/image/" class="foto" id="foto" alt="Foto-5" />
+          <h6>Salman</h6>
+          <h6>1202200022</h6>
+        </div>
+      </section>
+      <h1>Our Portofolio</h1>
+      <section class="porto">
+        <object
+          data="asset/svg/bug-fixing-not-css.svg"
+          type="image/svg+xml"
+          class="comming-soon-svg"
+          id="comming-soon-svg"
+        ></object>
+        <div class="keterangan">
+          <h2>THIS FEATURE UNDER CONSTRUCTION</h2>
+          <h4>
+            To create a project with us, click on the name on the business card
+            above. "Lets make project with us"
+          </h4>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

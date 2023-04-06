@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@400;500;600;700;800&family=Molle&family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;1,200&family=Righteous&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap')
+
+$small-screen: 640px
+$medium-screen: 820px
+$large-screen: 1024px
+
+$base-font-size: 16px
+
+@mixin responsive-image
+    width: 100%
+    height: auto
+    max-width: 100%
+    display: block
+
+@keyframes display
+    0%
+        transform: translateX(200px)
+        opacity: 0
+
+    10%
+        transform: translateX(0)
+        opacity: 1
+
+    20%
+        transform: translateX(0)
+        opacity: 1
+
+    30%
+        transform: translateX(-200px)
+        opacity: 0
+
+    100%
+        transform: translateX(-200px)
+        opacity: 0
